@@ -1,5 +1,5 @@
 'use strict';
-
+var m = require('mithril')
 var mithrilFakeXhr = function(base) {
 
   base = base || window;
